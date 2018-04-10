@@ -1,7 +1,11 @@
-<?php
-include '../top.php';
-?>
-
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="author" content="Robert M. Erickson">
+        <title>Git - Working Group</title>
+    </head>
+    <!-- **********************     Body section      ********************** -->
+    <body id="git-group">
 <article id="assign" class ="lab">
     <h1>Git to work with a group.</h1>
 
