@@ -1,7 +1,11 @@
-<?php
-include '../top.php';
-?>
-
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="author" content="Robert M. Erickson">
+        <title>Git - Working Alone</title>
+    </head>
+    <!-- **********************     Body section      ********************** -->
+    <body id="git-alone">
 <article id="assignments" class ="lab">
     <h1>GIT setup Working Alone</h1>
 
