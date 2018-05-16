@@ -14,6 +14,10 @@ and open the template in the editor.
         <section>
             <article>
                 <h1>Learning how to use Git.</h1>
+                <p>Git is the version control software. GitHub (<a href="https://education.github.com/" target="_blank">https://education.github.com</a>) and GitLab (<a href="https://github.uvm.edu/" target="_blank">https://github.uvm.edu</a>) is a cloud service based on the version control software called Git. There are minor difference between the two cloud services. The unix commands are exaclty the same. A goole search can clear up any other issue you may have.</p>
+                
+                <p>Starting <a href="git-alone.html" target="_blank">https://education.github.com</a>working on your own</a>.</p>
+                <p>Moving to <a href="git-group.html" target="_blank">https://education.github.com</a>working in a group</a> or using branches.</p>
         </article>
         </section>
         <section>
@@ -22,6 +26,18 @@ and open the template in the editor.
                 <pre>
 git remote add origin git@github.com:Robert-Erickson/Git-Work-Flow.git
 git push -u origin master
+
+on yoru local machine
+cd Desktop/folder-whatever-you-called-it
+git status
+git add -A
+git commit -m "description of changes"
+git push origin master
+
+On the server
+ssh w3.uvm.edu -/ netid
+cd www-root/live-folder-whatever-you-called-it
+git pull origin master
                 </pre>
             </article>
         </section>
